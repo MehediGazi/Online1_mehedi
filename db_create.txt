@@ -1,0 +1,13 @@
+create database AirplaneManagement;
+
+CREATE TABLE ticketbooking(
+	ID int(12) AUTO_INCREMENT,
+    EMAIL char(30),
+    APPT_DATE char(20),
+    FROM_LOCATION char(40),
+    TO_LOCATION char(40),
+    STATUS char(30),
+    PRIMARY KEY(ID)
+);
+
+INSERT INTO ticketbooking (EMAIL, APPT_DATE, FROM_LOCATION, TO_LOCATION, STATUS) VALUES ('mehedi@gmail.com','12/4/22','Dhaka','Khulna','Confirmed')
