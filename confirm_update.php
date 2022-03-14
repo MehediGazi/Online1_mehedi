@@ -1,11 +1,11 @@
 <?php
 
 $id = $_GET["id"];
-	$email = $_GET["EMAIL"];
+	$email = $_GET["email"];
 
-	$date = $_GET["DATE"];
-    $from = $_GET["From"];
-    $to = $_GET["To"];
+	$date = $_GET["date"];
+    $from = $_GET["from"];
+    $to = $_GET["to"];
     $stat = 'No'
 
 ?>

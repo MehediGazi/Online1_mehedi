@@ -18,8 +18,9 @@
         echo "<td> $FROM_LOCATION </td>";
         echo "<td> $TO_LOCATION </td>";
         echo "<td> $STATUS </td>";
-		echo "<td> <a> addBooking </a> </td>";
-		echo "<td> <a> ConfirmBooking </a> </td>";
+
+		echo "<td> <a href = 'appt_input.php?id=$ID'> AddBooking </a> </td>";
+		echo "<td> <a href = 'confirm_update.php?id=$ID&email=$EMAIL&date=$APPT_DATE&from=$FROM_LOCATION&to=$TO_LOCATION&stat=$STATUS'> ConfimBooking </a> </td>";
 		echo "</tr> \n";
 	}
 
